@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script src="js/jquery-3.0.0.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/StorageEx.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<script type="text/javascript">
+			var str1 = "123";
+			var str11= "456";
+			var str111 = {
+				'name':'xiaoming',
+				'age':123
+			};
+			
+			storageEx.doStorage(true,"name",str1);
+			storageEx.doStorage(true,"name");
+			storageEx.doStorage(true,"name1",str11);
+			storageEx.doStorage(true,"name1");
+			storageEx.doStorage(true,"name11",str111);
+			storageEx.doStorage(true,"name11");
+			/*storageEx.deleStorage(true,"name");*/
+			//storageEx.deleStorage();
+			
+			/*var str2 = "a";
+			var str22 = "b";
+			var str222 = {
+				'name':'xiaoming',
+				'age':123
+			}
+			storageEx.doStorage(false,"name",str2);
+			storageEx.doStorage(false,"name");
+			storageEx.doStorage(false,"name1",str22);
+			storageEx.doStorage(false,"name1");
+			storageEx.doStorage(false,"name11",str222);
+			storageEx.doStorage(false,"name11");
+			storageEx.deleStorage(false,"name");
+			storageEx.deleStorage(false);*/
+		</script>
+	</body>
+</html>
